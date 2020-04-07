@@ -1,0 +1,10 @@
+/.classpath
+/.project
+/parallel-box.log
+/.idea/
+/.settings/
+/.checkstyle
+/target/
+/bin/
+/build/
+ 
