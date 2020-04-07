@@ -24,8 +24,6 @@ public class ParallelTestSuite implements IDescriptionDecoratorList
     @Override
     public List<DescriptionDecorator> list()
     {
-        LongProcess longProcess = new LongProcess("LongProcess");
-
         Module module1 = new Module("Module1");
         module1.addProcessStep(new ProcessStep(1, "Step1"));
         module1.addProcessStep(new ProcessStep(3, "Step3"));
@@ -36,6 +34,7 @@ public class ParallelTestSuite implements IDescriptionDecoratorList
         module2.addProcessStep(new ProcessStep(4, "Step4"));
         module2.addProcessStep(new ProcessStep(6, "Step6"));
 
+        LongProcess longProcess = new LongProcess("LongProcess");
         longProcess.addModule(module1);
         longProcess.addModule(module2);
 

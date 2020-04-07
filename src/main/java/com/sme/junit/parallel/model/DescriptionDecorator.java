@@ -55,5 +55,4 @@ public class DescriptionDecorator
     {
         return rootSuiteDescription;
     }
-
 }

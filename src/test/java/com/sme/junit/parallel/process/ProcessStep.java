@@ -38,7 +38,7 @@ public class ProcessStep implements ITestable
         LOGGER.debug("Start test {} step in {} thread", name, Thread.currentThread());
         try
         {
-            Thread.sleep(RandomUtils.nextLong(0l, 5000l));
+            Thread.sleep(RandomUtils.nextLong(0L, 5000L));
 
             if (id == 5)
             {
