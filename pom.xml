@@ -56,7 +56,7 @@
         <application.name>JUnit Parallel Box</application.name>
 
         <slf4j.version>1.7.30</slf4j.version>
-        <junit.version>4.13</junit.version>
+        <junit.version>4.13.1</junit.version>
         <commons-lang3.version>3.10</commons-lang3.version>
     </properties>
 
